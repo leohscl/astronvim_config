@@ -192,7 +192,8 @@ local config = {
                 -- first key is the mode
                 n = {
                         -- second key is the lefthand side of the map
-                        ["<leader>rr"] = { "<cmd>vert Repl salloc -p ggs R<cr>", desc = "New tab" },
+                        ["<leader>rr"] = { "<cmd>vert Repl salloc -p ggs R<cr>", desc = "Launch R repl" },
+                        ["<leader>rb"] = { "<cmd>vert Repl salloc -p ggs bash<cr>", desc = "Launch bash repl" },
                         -- mappings seen under group name "Buffer"
                         ["<leader>bb"] = { "<cmd>tabnew<cr>", desc = "New tab" },
                         ["<leader>bc"] = { "<cmd>BufferLinePickClose<cr>", desc = "Pick to close" },
